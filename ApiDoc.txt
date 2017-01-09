@@ -1,0 +1,29 @@
+Request Body
+// Add customer ,referral,ambassador 
+{
+HTTP Method : POST
+Header : Application/json
+{
+  "customer_id": 10,
+  "email": "customer10@gmail.com",
+  "referral_id": 1,
+  "payback": 0,
+  "isAmbassador": false,
+  "joiningDate": "2012-04-23T18:25:43.511Z",
+  "lastUpdated": "2012-04-23T18:25:43.511Z"
+}
+
+Response Body
+  {
+    "_id": "587306eb739bec21a076b66c",
+    "customer_id": 10,
+    "email": "customer3@gmail.com",
+    "referral_id": 1,
+    "payback": 20,
+    "isAmbassador": true,
+    "joiningDate": "2012-04-23T18:25:43.511Z",
+    "lastUpdated": "2012-04-23T18:25:43.511Z",
+    "__v": 0
+  }
+
+ 
